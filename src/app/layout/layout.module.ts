@@ -11,6 +11,9 @@ import { MatMenuModule } from '@angular/material/menu';
   declarations: [
     MenuComponent
   ],
+  exports: [
+    MenuComponent
+  ],
   imports: [
     BrowserAnimationsModule,
     CommonModule,

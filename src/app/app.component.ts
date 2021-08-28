@@ -16,7 +16,7 @@ export class AppComponent {
     this.usuario = new Usuario();
     this.usuarios = new Array<Usuario>();
   }
-
+  
   inserirUsuario(): void {
     this.usuarios.push(this.usuario);
     this.usuario = new Usuario();
